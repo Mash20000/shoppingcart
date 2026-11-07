@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>MEGA-TECH SHOP</h1>
+            </div>
+                <div class="navbar">
+                    <div class="small_container">
+                        <div class="row">
+                            <div class="col_2">
+                                <logo><img src="images/DR. TECH LOGO.png"></logo>
+                            </div>
+                            <div class="col_2">
+                                <div class="icon"><img src="images/icon.png" onclick="menutoogle()"></div>
+                                <nav id="menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="productDetails.html">Product_Details</a></li>
+                                        <li><a href="account.html">Account</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+
+<div class="accountPage">
+    <div class="container">
+        <div class="row">
+            <div class="col_2">
+                <img src="images/shirt.jpg" width="100%">
+            </div>
+            <div class="col_2">
+                <div class="logHeader">
+                    <span onclick = "login()">Log in</span>
+                    <span onclick = "signup()">Register</span>
+                    <hr id="indicator">
+                </div>
+                <div class="form">
+                    <form id="login">
+                        <input type="username" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button>Log in</button>
+                    </form>
+                    <form id="signup">
+                        <input type="username" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button>Sign up</button>
+                        <a href=""><p>Forgot password</p></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="footer">
+        <div class="row">
+            <div class="col_3">
+                <img src="images/DR. TECH LOGO.png" alt="">
+                <h2>Our bland our everything</h2>
+            </div>
+            <div class="col_3">
+                <p>Reach to us every time you feel like in our social media platforms</p>
+                <ul>
+                    <li>Whatsapp</li>
+                    <li>Facebook</li>
+                    <li>twitter</li>
+                </ul>
+            </div>
+            <div class="col_3">
+                <form action="" class="message">
+                    <label>Massage:</label>
+                    <textarea name="message" id="" placeholder="Type your message here..." rows="5" cols="30"></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+        <p>Copyright of Dr. tech 2025. All rights reserved</p>
+    </div> 
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
